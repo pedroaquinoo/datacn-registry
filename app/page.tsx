@@ -1,13 +1,10 @@
 import * as React from "react"
-import { HelloWorld } from "@/registry/new-york/blocks/hello-world/hello-world"
-import { ExampleForm } from "@/registry/new-york/blocks/example-form/example-form"
-import PokemonPage from "@/registry/new-york/blocks/complex-component/page"
-import { ExampleCard } from "@/registry/new-york/blocks/example-with-css/example-card"
 import { registryItemSchema } from "shadcn/schema"
 import registry from "@/registry.json"
 import { AddCommand } from "@/components/add-command"
-import { Separator } from "@/registry/new-york/ui/separator"
+import { Separator } from "@/registry/datacn/ui/separator"
 import { OpenInV0Button } from "@/components/open-in-v0-button"
+import { blocks } from "@/components/blocks"
 
 const getRegistryItemFromJson = React.cache((name: string) => {
   const registryItem = registry.items.find((item) => item.name === name)

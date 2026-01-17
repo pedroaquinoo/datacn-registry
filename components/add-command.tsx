@@ -1,7 +1,7 @@
 "use client"
 
 import { useCopyToClipboard } from "@/hooks/use-copy-to-clipboard"
-import { Button } from "@/registry/new-york/ui/button"
+import { Button } from "@/registry/datacn/ui/button"
 import { CheckIcon } from "lucide-react"
 import { registryItemSchema } from "shadcn/schema"
 import { toast } from "sonner"
@@ -20,7 +20,7 @@ export function AddCommand({
       size="sm"
       className="rounded-sm !pl-2"
       onClick={() => {
-        copyToClipboard(`npx shadcn@latest add @alpine/${registryItem.name}`)
+        copyToClipboard(`npx shadcn@latest add @datacn/${registryItem.name}`)
         toast.success(`npx command copied to clipboard`)
       }}
     >

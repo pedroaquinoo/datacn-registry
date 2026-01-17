@@ -8,11 +8,11 @@ import {
   CardDescription,
   CardContent,
   CardFooter,
-} from "@/registry/new-york/ui/card"
-import { Input } from "@/registry/new-york/ui/input"
-import { Label } from "@/registry/new-york/ui/label"
-import { Button } from "@/registry/new-york/ui/button"
-import { Textarea } from "@/registry/new-york/ui/textarea"
+} from "@/registry/datacn/ui/card"
+import { Input } from "@/registry/datacn/ui/input"
+import { Label } from "@/registry/datacn/ui/label"
+import { Button } from "@/registry/datacn/ui/button"
+import { Textarea } from "@/registry/datacn/ui/textarea"
 import { z } from "zod"
 
 const exampleFormSchema = z.object({
