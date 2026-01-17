@@ -53,7 +53,7 @@ export function AddCommand({
           ></line>
         </svg>
       )}
-      {`@alpine/${registryItem.name}`}
+      {`@datacn/${registryItem.name}`}
     </Button>
   )
 }
